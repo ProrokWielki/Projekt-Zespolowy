@@ -1,0 +1,8 @@
+prefix=/mnt/dav/Projekt/Software/Raspberry PI/devel_isolated/rosbash
+
+Name: rosbash
+Description: Description of rosbash
+Version: 1.11.11
+Cflags: 
+Libs: -L/mnt/dav/Projekt/Software/Raspberry PI/devel_isolated/rosbash/lib 
+Requires: 

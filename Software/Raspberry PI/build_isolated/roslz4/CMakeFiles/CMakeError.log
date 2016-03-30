@@ -1,0 +1,57 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /mnt/dav/Projekt/Software/Raspberry PI/build_isolated/roslz4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec954810821/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec954810821.dir/build.make CMakeFiles/cmTryCompileExec954810821.dir/build
+make[1]: Entering directory '/mnt/dav/Projekt/Software/Raspberry PI/build_isolated/roslz4/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/mnt/dav/Projekt/Software/Raspberry PI/build_isolated/roslz4/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec954810821.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec954810821.dir/CheckSymbolExists.c.o   -c "/mnt/dav/Projekt/Software/Raspberry PI/build_isolated/roslz4/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTryCompileExec954810821
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec954810821.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec954810821.dir/CheckSymbolExists.c.o  -o cmTryCompileExec954810821 -rdynamic 
+CMakeFiles/cmTryCompileExec954810821.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x38): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec954810821.dir/build.make:88: recipe for target 'cmTryCompileExec954810821' failed
+make[1]: Leaving directory '/mnt/dav/Projekt/Software/Raspberry PI/build_isolated/roslz4/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec954810821] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec954810821/fast' failed
+make: *** [cmTryCompileExec954810821/fast] Error 2
+
+File /mnt/dav/Projekt/Software/Raspberry PI/build_isolated/roslz4/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /mnt/dav/Projekt/Software/Raspberry PI/build_isolated/roslz4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec938902432/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec938902432.dir/build.make CMakeFiles/cmTryCompileExec938902432.dir/build
+make[1]: Entering directory '/mnt/dav/Projekt/Software/Raspberry PI/build_isolated/roslz4/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/mnt/dav/Projekt/Software/Raspberry PI/build_isolated/roslz4/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec938902432.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec938902432.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec938902432
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec938902432.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec938902432.dir/CheckFunctionExists.c.o  -o cmTryCompileExec938902432 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec938902432.dir/build.make:88: recipe for target 'cmTryCompileExec938902432' failed
+make[1]: Leaving directory '/mnt/dav/Projekt/Software/Raspberry PI/build_isolated/roslz4/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec938902432] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec938902432/fast' failed
+make: *** [cmTryCompileExec938902432/fast] Error 2
+
+

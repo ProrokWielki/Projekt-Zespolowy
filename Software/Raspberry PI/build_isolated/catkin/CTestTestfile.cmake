@@ -1,0 +1,9 @@
+# CMake generated Testfile for 
+# Source directory: /mnt/dav/Projekt/Software/Raspberry PI/src/catkin
+# Build directory: /mnt/dav/Projekt/Software/Raspberry PI/build_isolated/catkin
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(_ctest_catkin_nosetests_test.local_tests "/mnt/dav/Projekt/Software/Raspberry PI/build_isolated/catkin/catkin_generated/env_cached.sh" "/usr/bin/python" "/mnt/dav/Projekt/Software/Raspberry PI/src/catkin/cmake/test/run_tests.py" "/mnt/dav/Projekt/Software/Raspberry PI/build_isolated/catkin/test_results/catkin/nosetests-test.local_tests.xml" "--return-code" "/usr/bin/cmake -E make_directory /mnt/dav/Projekt/Software/Raspberry PI/build_isolated/catkin/test_results/catkin" "/usr/bin/nosetests-2.7 -P --process-timeout=60 --where=/mnt/dav/Projekt/Software/Raspberry PI/src/catkin/test/local_tests --with-xunit --xunit-file=/mnt/dav/Projekt/Software/Raspberry PI/build_isolated/catkin/test_results/catkin/nosetests-test.local_tests.xml")
+add_test(_ctest_catkin_nosetests_test.unit_tests "/mnt/dav/Projekt/Software/Raspberry PI/build_isolated/catkin/catkin_generated/env_cached.sh" "/usr/bin/python" "/mnt/dav/Projekt/Software/Raspberry PI/src/catkin/cmake/test/run_tests.py" "/mnt/dav/Projekt/Software/Raspberry PI/build_isolated/catkin/test_results/catkin/nosetests-test.unit_tests.xml" "--return-code" "/usr/bin/cmake -E make_directory /mnt/dav/Projekt/Software/Raspberry PI/build_isolated/catkin/test_results/catkin" "/usr/bin/nosetests-2.7 -P --process-timeout=60 --where=/mnt/dav/Projekt/Software/Raspberry PI/src/catkin/test/unit_tests --with-xunit --xunit-file=/mnt/dav/Projekt/Software/Raspberry PI/build_isolated/catkin/test_results/catkin/nosetests-test.unit_tests.xml")
+subdirs(gtest)

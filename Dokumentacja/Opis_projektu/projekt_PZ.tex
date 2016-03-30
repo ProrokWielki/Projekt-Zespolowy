@@ -1,0 +1,177 @@
+\documentclass[a4paper, 11pt]{article}
+\usepackage{polski}
+\usepackage[utf8]{inputenc}
+\usepackage{latexsym}
+\usepackage[english, polish]{babel}
+\usepackage{indentfirst}
+\usepackage{geometry}
+\author{Paweł Warzecha \and Adam Burdykiewicz}
+\title{Opis Projektu}
+\frenchspacing
+
+\begin{document}
+
+% TODO
+	% rozdzial 5
+	% wysrodkowac tabelki
+	% lepiej podpis nad czy pod tabelka?
+	% Gantt
+
+\maketitle
+
+\newpage
+\tableofcontents
+
+\newpage
+
+\section{Opis ogólny}
+Przedmiotem projektu jest budowa działa laserowego wyposażonego w system wizyjny umożliwiający identyfikację celów. Zostanie użyty laser niewielkiej mocy (5000mW), wystarczającej jednak by przebić czarne balony, które zostaną zdefiniowane jako jego cel.
+
+Tego typu urządzenia są budowane do eksterminowania komarów w Afryce, co ma zredukować ilość zachorowań na malarię. Taki system ma jednak znacznie większy potencjał, dlatego nasz projekt zostanie zbudowany w oparciu o oprogramowanie Open Source oraz będzie rozpowszechniany na jej zasadach. 
+Umożliwi to swobodne dokonywanie modyfikacji w celu dopasowania narzędzia do zaistniałych potrzeb, amerykańska armia jest w trakcie opracowywania potężnej broni laserowej montowanej na pojazdach, potrafiącej samodzielnie eliminować wymierzone w nie rakiety, nim te zdołają wyrządzić szkody. Przeznaczyli na ten cel 25 milionów dolarów.\footnote{http://www.lockheedmartin.com/us/news/press-releases/2014/april/140424-mst-lm-wins-contract-to-develop-weapons-grade-fiber-laser.html} Jest to efekt wieloletniego, postępującego zwiększania efektywności i mocy laserów w granicach bezpiecznych poziomów emisji ciepła\footnote{http://hedpschool.lle.rochester.edu/2011SummerSchool/lectures/Patel.pdf (7. slajd)}
+
+Spodziewanym efektem prac będzie działo laserowe zdolne do eliminowania celów w czasie rzeczywistym z dwoma trybami pracy, automatycznym i ręcznym. 
+Sterowanie ręczne będzie się odbywało przy pomocy kontrolera XBOX 360 przewodowo podłączonego do komputera zewnętrznego, który będzie komunikował się z komputerem pokładowym przez sieć Wi-Fi. Tryb automatyczny będzie samodzielnie wybierał cele bazując na odczycie z kamery Kinect, dostarczającej rozmieszczenie obiektów w przestrzeni. Analiza i interpretacja tego obrazu umożliwi przyjęcie odpowiedniej pozycji przez serwomechanizmy sterujące laserem i oddanie strzału.
+
+Całość zostanie zrealizowana na systemie złożonym z mikrokontrolera Raspberry Pi i laptopa Dell Inspiron 14 3451. Mikrokontroler będzie odpowiedzialny za przetwarzanie danych z kamery i konfigurowanie serwomechanizmów, natomiast na komputerze zewnętrznym będzie wykonywane odczytywanie danych z kontrolera i ich konwersja na konieczne do przyjęcia konfiguracje. Laptop umożliwi też operatorowi wzgląd w status działa i przerwanie oraz wznowienie jego pracy w razie potrzeby.
+
+Poza zaplanowaniem i oprogramowaniem funkcjonalności każdego z komponentów, prace nad projektem mają również za zadanie opracowanie metod komunikacji między tymi dwoma systemami opartymi na różnej architekturze procesora.
+
+Wyniki prac będą umieszczane na stronie www pod adresem \\ http://89.72.70.224/laser.html.
+
+Przewidywany czas ukończenia projektu to 13 tygodni, rozpoczynając 7.03.2016, a kończąc 6.06.2016.
+
+\section{Plan prac i rozkład obowiązków}
+
+% Slabo to wyglada...
+% Lepiej pisac dalsze akapity a wstawki na koncu wskocza?
+
+\begin{table}[h]
+\caption{Podział prac}
+\label{Plan}
+
+\begin{tabular}{|c|l|l|} \hline
+Nr zadania & Osoba odpowiedzialna & Opis zadania \\ \hline
+Z1 & Paweł Warzecha & Zarządzanie projektem \\ \hline
+Z2 & Paweł Warzecha & Sprecyzowanie założeń projektowych \\
+ & & Specyfikacja systemu \\
+ & & Określenie kryteriów ewaluacji \\ \hline
+Z3 & wszyscy & Zapoznanie się z narzedziami \\ \hline \hline
+Z4 & Piotr Bachry & Zaprojektowanie architektury oprogramowania \\
+ & & Sporządzenie dokumentacji \\ \hline
+Z5 & Adam Burdykiewicz & Zaprojektowanie układu mechanicznego \\
+ & & Sporządzenie dokumentacji \\ \hline
+Z6 & Jacek Kamieniecki & Zaprojektowanie układu elektrycznego \\ 
+ & & Sporządzenie dokumentacji \\ \hline \hline
+Z7 & wszyscy & Zakupy - pozyskanie części \\ \hline
+Z8 & Adam Burdykiewicz & Wykonanie układu mechanicznego \\
+ & & Sporządzenie dokumentacji \\ \hline
+Z9 & Kamil Orłow & Wykonanie układu elektrycznego \\
+ & & Sporządzenie dokumentacji \\ \hline \hline
+Z10 & Kacper Pawlak  & Utworzenie oprogramowania odpowiedzialnego \\
+ & Bartosz Kowalski & za obsługę kamery \\
+ & & Sporządzenie dokumentacji \\ \hline 
+Z11 & Adam Burdykiewicz & Utworzenie oprogramowania odpowiedzialnego \\
+ & & za obsługę kontrolera \\
+ & & Sporządzenie dokumentacji \\ \hline
+Z12 & Jacek Kamieniecki & Utworzenie oprogramowania odpowiedzialnego \\
+ & & za obsługę serwomechanizmów \\
+ & & Sporządzenie dokumentacji \\ \hline
+Z13 & Kacper Pawlak  & Utworzenie oprogramowania odpowiedzialnego \\ 
+ & Bartosz Kowalski & za przetwarzanie obrazów \\
+ & & Sporządzenie dokumentacji \\ \hline \hline
+Z14 & Piotr Bachry & Zintegrowanie wszystkich elementów \\
+ & & skomunikowanie ich ze sobą \\
+ & & Sporządzenie dokumentacji \\ \hline
+Z15 & Kamil Orłow & Utworzenie interfejsu użytkownika \\
+ & & Sporządzenie dokumentacji \\ \hline
+Z16 & wszyscy & Testy i usuwanie błędów \\ \hline
+Z17 & wszyscy & Ewaluacja \\ \hline
+Z18 & Paweł Warzecha & Zebranie, zredagowanie i podsumowanie \\
+ & & dokumentacji z wszystkich kroków \\ 
+ & & Sporządzenie raportu końcowego \\ \hline
+\end{tabular}
+\end{table}
+
+\newpage
+\restoregeometry
+
+Kamienie milowe:
+
+\begin{itemize}
+\item Projekty wszystkich układów (mechanicznego, elektrycznego) i architektury oprogramowania (Z2-Z6) \\
+Termin: 12.04.2016
+\item Fizycznie wytworzone komponenty (Z7-Z9) \\
+Termin: 3.05.2016
+\item Oprogramowanie związane z poszczególnymi komponentami (Z10-Z13) \\
+Termin: 24.05.2016
+\item Raport końcowy (Z1-Z18) \\
+Termin: 6.06.2016
+\end{itemize}
+
+Tu będzie Gantt
+\begin{figure}[h]
+\caption{Wykres Gantta}
+\label{Gantt}
+\end{figure}
+
+
+\newpage
+\section{Doręczenia}
+
+\begin{table}[h]
+\caption{Doręczenia}
+\label{Doręczenia}
+
+\begin{tabular}{|l|l|l|} \hline
+Data & Nawa & Postać \\ \hline
+12.04.2016 & Projekty wszystkich układów & Oprogramowanie \\
+ & (mechanicznego, elektrycznego) & Dokumentacja \\
+ & architektura oprogramowania & \\ \hline
+
+2.05.2016 & Fizycznie wytworzone komponenty & Oprogramowanie \\
+ & & Dokumentacja \\ \hline
+ 
+23.05.2016 & Oprogramowanie związane & Sprzęt \\
+ & z poszczególnymi komponentami & Oprogramowanie \\
+ & & Dokumentacja \\ \hline
+6.06.2015 & Raport końcowy & Raport końcowy \\ \hline
+\end{tabular}
+\end{table}
+
+\section{Budżet}
+
+\begin{table}[h]
+\caption{Potrzeby i koszty}
+\label{Budżet}
+
+\begin{tabular}{|l|r|} \hline
+Potrzeba & Koszt \\ \hline
+Laser 5000mW & 60,00 zł \\ \hline
+2x Serwomechanizm & 20,00 zł \\ \hline
+Plexa & 20,00 zł \\ \hline
+Tranzystor MOSFET & 2,00 zł \\ \hline
+Balony & 10,00 zł \\ \hline \hline
+Łącznie & 112,00 zł \\ \hline
+\end{tabular}
+\end{table}
+
+\newpage
+\section{Zarządzanie projektem}
+
+
+\newpage
+\section{Zespół}
+\begin{itemize}
+\item Paweł Warzecha - koordynacja projektu 
+\item Kacper Pawlak - obsługa kamery i algorytm przetwarzania obrazów 
+\item Bartosz Kowalski - obsługa kamery i algorytm przetwarzania obrazów
+\item Jacek Kamieniecki - projekt układu elektrycznego i algorytm sterowania serwomechanizmami
+\item Adam Burdykiewicz - projekt i wykonanie układu mechanicznego, obsługa kontrolera
+\item Kamil Orłow - wykonanie układu elektrycznego, interfejs użytkownika
+\item Piotr Bachry - projekt architektury oprogramowania i skomunikowanie komponentów
+\end{itemize}
+
+% A TU NASZE ZDJĘCIE 8-]
+
+\end{document}

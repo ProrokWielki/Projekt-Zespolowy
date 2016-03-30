@@ -1,0 +1,8 @@
+prefix=/mnt/dav/Projekt/Software/Raspberry PI/devel_isolated/topic_tools
+
+Name: topic_tools
+Description: Description of topic_tools
+Version: 1.11.16
+Cflags: -I/mnt/dav/Projekt/Software/Raspberry PI/devel_isolated/topic_tools/include -I/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/topic_tools/include
+Libs: -L/mnt/dav/Projekt/Software/Raspberry PI/devel_isolated/topic_tools/lib -ltopic_tools
+Requires: message_runtime rosconsole roscpp std_msgs xmlrpcpp

@@ -1,0 +1,8 @@
+prefix=/mnt/dav/Projekt/Software/Raspberry PI/devel_isolated/roslz4
+
+Name: roslz4
+Description: Description of roslz4
+Version: 1.11.16
+Cflags: -I/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/roslz4/include -I/usr/include
+Libs: -L/mnt/dav/Projekt/Software/Raspberry PI/devel_isolated/roslz4/lib -lroslz4 -l:/usr/lib/arm-linux-gnueabihf/liblz4.so
+Requires: 

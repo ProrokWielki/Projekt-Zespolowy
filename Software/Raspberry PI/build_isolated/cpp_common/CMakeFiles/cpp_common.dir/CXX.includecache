@@ -1,0 +1,70 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/dav/Projekt/Software/Raspberry PI/src/roscpp_core/cpp_common/include/ros/cpp_common_decl.h
+ros/macros.h
+-
+
+/mnt/dav/Projekt/Software/Raspberry PI/src/roscpp_core/cpp_common/include/ros/datatypes.h
+string
+-
+vector
+-
+map
+-
+set
+-
+list
+-
+boost/shared_ptr.hpp
+-
+
+/mnt/dav/Projekt/Software/Raspberry PI/src/roscpp_core/cpp_common/include/ros/debug.h
+string
+-
+vector
+-
+cpp_common_decl.h
+/mnt/dav/Projekt/Software/Raspberry PI/src/roscpp_core/cpp_common/include/ros/cpp_common_decl.h
+
+/mnt/dav/Projekt/Software/Raspberry PI/src/roscpp_core/cpp_common/include/ros/header.h
+stdint.h
+-
+boost/shared_array.hpp
+-
+ros/datatypes.h
+/mnt/dav/Projekt/Software/Raspberry PI/src/roscpp_core/cpp_common/include/ros/ros/datatypes.h
+
+/mnt/dav/Projekt/Software/Raspberry PI/src/roscpp_core/cpp_common/include/ros/macros.h
+
+/mnt/dav/Projekt/Software/Raspberry PI/src/roscpp_core/cpp_common/src/debug.cpp
+ros/debug.h
+/mnt/dav/Projekt/Software/Raspberry PI/src/roscpp_core/cpp_common/src/ros/debug.h
+execinfo.h
+-
+cxxabi.h
+-
+cstdlib
+-
+cstdio
+-
+sstream
+-
+
+/mnt/dav/Projekt/Software/Raspberry PI/src/roscpp_core/cpp_common/src/header.cpp
+ros/header.h
+/mnt/dav/Projekt/Software/Raspberry PI/src/roscpp_core/cpp_common/src/ros/header.h
+console_bridge/console.h
+/mnt/dav/Projekt/Software/Raspberry PI/src/roscpp_core/cpp_common/src/console_bridge/console.h
+sstream
+-
+cstring
+-
+cerrno
+-
+

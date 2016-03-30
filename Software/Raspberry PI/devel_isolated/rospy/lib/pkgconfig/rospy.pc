@@ -1,0 +1,8 @@
+prefix=/mnt/dav/Projekt/Software/Raspberry PI/devel_isolated/rospy
+
+Name: rospy
+Description: Description of rospy
+Version: 1.11.16
+Cflags: 
+Libs: -L/mnt/dav/Projekt/Software/Raspberry PI/devel_isolated/rospy/lib 
+Requires: 

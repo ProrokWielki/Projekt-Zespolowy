@@ -1,0 +1,17 @@
+/opt/ros/indigo/_setup_util.py
+/opt/ros/indigo/env.sh
+/opt/ros/indigo/setup.bash
+/opt/ros/indigo/setup.sh
+/opt/ros/indigo/setup.zsh
+/opt/ros/indigo/.rosinstall
+/opt/ros/indigo/lib/pkgconfig/roscreate.pc
+/opt/ros/indigo/share/roscreate/cmake/roscreateConfig.cmake
+/opt/ros/indigo/share/roscreate/cmake/roscreateConfig-version.cmake
+/opt/ros/indigo/share/roscreate/package.xml
+/opt/ros/indigo/share/roscreate/templates/mainpage.tmpl
+/opt/ros/indigo/share/roscreate/templates/Makefile.stack.tmpl
+/opt/ros/indigo/share/roscreate/templates/manifest.tmpl
+/opt/ros/indigo/share/roscreate/templates/Makefile.tmpl
+/opt/ros/indigo/share/roscreate/templates/CMakeLists.stack.tmpl
+/opt/ros/indigo/share/roscreate/templates/stack.tmpl
+/opt/ros/indigo/share/roscreate/templates/CMakeLists.tmpl

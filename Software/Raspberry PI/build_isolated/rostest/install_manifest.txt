@@ -1,0 +1,13 @@
+/opt/ros/indigo/_setup_util.py
+/opt/ros/indigo/env.sh
+/opt/ros/indigo/setup.bash
+/opt/ros/indigo/setup.sh
+/opt/ros/indigo/setup.zsh
+/opt/ros/indigo/.rosinstall
+/opt/ros/indigo/lib/pkgconfig/rostest.pc
+/opt/ros/indigo/share/rostest/cmake/rostest-extras.cmake
+/opt/ros/indigo/share/rostest/cmake/rostestConfig.cmake
+/opt/ros/indigo/share/rostest/cmake/rostestConfig-version.cmake
+/opt/ros/indigo/share/rostest/package.xml
+/opt/ros/indigo/share/rostest/nodes/hztest/hztest
+/opt/ros/indigo/include/rostest/permuter.h

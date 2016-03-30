@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# generated from catkin/cmake/templates/script.bash.in
+
+"/mnt/dav/Projekt/Software/Raspberry PI/src/ros/rosbash/scripts/rosrun" "$@"

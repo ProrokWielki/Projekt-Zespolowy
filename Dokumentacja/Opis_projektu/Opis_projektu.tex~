@@ -1,0 +1,107 @@
+%% Based on a TeXnicCenter-Template by Gyorgy SZEIDL.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%------------------------------------------------------------
+%
+\documentclass[10pt, a4paper]{article}%
+%Options -- Point size:  10pt (default), 11pt, 12pt
+%        -- Paper size:  letterpaper (default), a4paper, a5paper, b5paper
+%                        legalpaper, executivepaper
+%        -- Orientation  (portrait is the default)
+%                        landscape
+%        -- Print size:  oneside (default), twoside
+%        -- Quality      final(default), draft
+%        -- Title page   notitlepage, titlepage(default)
+%        -- Columns      onecolumn(default), twocolumn
+%        -- Equation numbering (equation numbers on the right is the default)
+%                        leqno
+%        -- Displayed equations (centered is the default)
+%                        fleqn (equations start at the same distance from the right side)
+%        -- Open bibliography style (closed is the default)
+%                        openbib
+% For instance the command
+%           \documentclass[a4paper,12pt,leqno]{article}
+% ensures that the paper size is a4, the fonts are typeset at the size 12p
+% and the equation numbers are on the left side
+%
+\usepackage{amsmath}%
+\usepackage{amsfonts}%
+\usepackage{amssymb}%
+\usepackage{graphicx}
+\usepackage{polski}
+\usepackage[UTF8]{inputenc}
+\usepackage{enumerate}
+%-------------------------------------------
+\newtheorem{theorem}{Theorem}
+\newtheorem{acknowledgement}[theorem]{Acknowledgement}
+\newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{axiom}[theorem]{Axiom}
+\newtheorem{case}[theorem]{Case}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{conclusion}[theorem]{Conclusion}
+\newtheorem{condition}[theorem]{Condition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{solution}[theorem]{Solution}
+\newtheorem{summary}[theorem]{Summary}
+\newenvironment{proof}[1][Proof]{\textbf{#1.} }{\ \rule{0.5em}{0.5em}}
+
+\begin{document}
+
+\title{Opis Projektu}
+\author{Paweł Warzecha}
+\date{2 marca 2016}
+\maketitle
+
+\section{Opis ogólny}
+
+\hspace{15pt} Przedmiotem projektu jest budowa działa laserowego wyposażonego w system wizyjny umożliwiający rozpoznawanie celów. Tego typu urządzenia są budowane do zabijania komarów w Afryce co ma zredukować ilość zachorowań na malarie. Jednak taki system ma znacznie większy potencjał, dlatego nasz projekt zostanie zbudowany w pełni w oparciu o oprogramowanie na licencji Open Source oraz będzie rozpowszechniany na jej zasadach. W ten sposób każdy będzie mógł dokonać modyfikacji aby dopasować projekt do swoich potrzeb. Spodziewanym efektem prac będzie działo laserowe z dwoma trybami pracy, automatycznym i ręcznym. Sterowanie ręczne będzie odbywało przy pomocy pada podłączonego do komputera zewnętrznego, który będzie komunikował się z komputerem pokładowym przez sieć WI-FI. Projekt ma za zadanie opracowania metod komunikacji między dwoma systemami opartymi na różnej architekturze procesora oraz opracowanie algorytmów przetwarzania obrazu. Wyniki prac będą zamieszczanie na stronie www pod adresem
+http://89.72.70.224/laser.html.
+
+\section{Plan prac i rozkład obowiązków}
+
+\begin{center}
+\includegraphics[scale=0.3]{Gantt}
+\end{center}
+
+\noindent Kamienie milowe: 
+
+\begin{itemize}
+  \item Działający algorytm przetwarzania obrazu
+  \item Działająca komunikacja
+\end{itemize}
+
+\section{Budżet}
+
+\begin{tabular}{|r|l|} \hline
+
+  Laser 5000mW & 60 zł \\
+  Serwo mechanizmy & 20 zł \\
+  \hline
+  Łącznie & 80 zł \\
+  \hline
+
+\end{tabular}
+
+\section{Zarządzanie projektem}
+
+\section{Zespół}
+
+Paweł Warzecha - koordynator projektu\\
+Kacper Pawlak - obsługa kamery i algorytm przetwarzania obrazu\\
+Bartosz Kowalski - obsługa kamery i algorytm przetwarzania obrazu\\
+Jacek Kamienicki - algorytm sterowania serwo mechanizmami\\
+Adam Burdykiewicz - obsługa kontrolera i projekt manipulatora\\
+Kamil Orłow - interfejs użytkownika\\
+Piotr Bachry - komunikacja\\
+
+\end{document}

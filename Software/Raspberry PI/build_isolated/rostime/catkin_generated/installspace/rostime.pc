@@ -1,0 +1,8 @@
+prefix=/opt/ros/indigo
+
+Name: rostime
+Description: Description of rostime
+Version: 0.5.6
+Cflags: -I/opt/ros/indigo/include -I/usr/include
+Libs: -L/opt/ros/indigo/lib -lrostime -l:/usr/lib/arm-linux-gnueabihf/libboost_date_time.so -l:/usr/lib/arm-linux-gnueabihf/libboost_system.so -l:/usr/lib/arm-linux-gnueabihf/libboost_thread.so -l:/usr/lib/arm-linux-gnueabihf/libpthread.so
+Requires: cpp_common

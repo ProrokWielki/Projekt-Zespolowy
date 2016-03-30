@@ -1,0 +1,14 @@
+/opt/ros/indigo/_setup_util.py
+/opt/ros/indigo/env.sh
+/opt/ros/indigo/setup.bash
+/opt/ros/indigo/setup.sh
+/opt/ros/indigo/setup.zsh
+/opt/ros/indigo/.rosinstall
+/opt/ros/indigo/lib/pkgconfig/roscpp_serialization.pc
+/opt/ros/indigo/share/roscpp_serialization/cmake/roscpp_serializationConfig.cmake
+/opt/ros/indigo/share/roscpp_serialization/cmake/roscpp_serializationConfig-version.cmake
+/opt/ros/indigo/share/roscpp_serialization/package.xml
+/opt/ros/indigo/lib/libroscpp_serialization.so
+/opt/ros/indigo/include/ros/roscpp_serialization_macros.h
+/opt/ros/indigo/include/ros/serialization.h
+/opt/ros/indigo/include/ros/serialized_message.h

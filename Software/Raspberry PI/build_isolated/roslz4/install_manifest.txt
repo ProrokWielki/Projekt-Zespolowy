@@ -1,0 +1,13 @@
+/opt/ros/indigo/_setup_util.py
+/opt/ros/indigo/env.sh
+/opt/ros/indigo/setup.bash
+/opt/ros/indigo/setup.sh
+/opt/ros/indigo/setup.zsh
+/opt/ros/indigo/.rosinstall
+/opt/ros/indigo/lib/pkgconfig/roslz4.pc
+/opt/ros/indigo/share/roslz4/cmake/roslz4Config.cmake
+/opt/ros/indigo/share/roslz4/cmake/roslz4Config-version.cmake
+/opt/ros/indigo/share/roslz4/package.xml
+/opt/ros/indigo/lib/libroslz4.so
+/opt/ros/indigo/lib/python2.7/dist-packages/roslz4/_roslz4.so
+/opt/ros/indigo/include/roslz4/lz4s.h

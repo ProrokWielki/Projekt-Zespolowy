@@ -1,0 +1,62 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros/roslib/include/ros/package.h
+string
+-
+vector
+-
+map
+-
+
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros/roslib/src/package.cpp
+ros/package.h
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros/roslib/src/ros/package.h
+rospack/rospack.h
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros/roslib/src/rospack/rospack.h
+cstdio
+-
+iostream
+-
+boost/algorithm/string/split.hpp
+-
+boost/algorithm/string/join.hpp
+-
+boost/algorithm/string/classification.hpp
+-
+boost/thread/mutex.hpp
+-
+
+/opt/ros/indigo/include/rospack/macros.h
+
+/opt/ros/indigo/include/rospack/rospack.h
+boost/tr1/unordered_set.hpp
+-
+boost/tr1/unordered_map.hpp
+-
+list
+-
+map
+-
+set
+-
+string
+-
+vector
+-
+macros.h
+/opt/ros/indigo/include/rospack/macros.h
+rospack/rospack_backcompat.h
+/opt/ros/indigo/include/rospack/rospack/rospack_backcompat.h
+
+/opt/ros/indigo/include/rospack/rospack_backcompat.h
+string
+-
+macros.h
+/opt/ros/indigo/include/rospack/macros.h
+

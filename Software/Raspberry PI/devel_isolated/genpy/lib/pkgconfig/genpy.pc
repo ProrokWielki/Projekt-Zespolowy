@@ -1,0 +1,8 @@
+prefix=/mnt/dav/Projekt/Software/Raspberry PI/devel_isolated/genpy
+
+Name: genpy
+Description: Description of genpy
+Version: 0.5.7
+Cflags: 
+Libs: -L/mnt/dav/Projekt/Software/Raspberry PI/devel_isolated/genpy/lib 
+Requires: genmsg

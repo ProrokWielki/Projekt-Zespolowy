@@ -1,0 +1,8 @@
+prefix=/mnt/dav/Projekt/Software/Raspberry PI/devel_isolated/rosmake
+
+Name: rosmake
+Description: Description of rosmake
+Version: 1.11.11
+Cflags: 
+Libs: -L/mnt/dav/Projekt/Software/Raspberry PI/devel_isolated/rosmake/lib 
+Requires: 

@@ -1,0 +1,17 @@
+/opt/ros/indigo/_setup_util.py
+/opt/ros/indigo/env.sh
+/opt/ros/indigo/setup.bash
+/opt/ros/indigo/setup.sh
+/opt/ros/indigo/setup.zsh
+/opt/ros/indigo/.rosinstall
+/opt/ros/indigo/lib/pkgconfig/rostime.pc
+/opt/ros/indigo/share/rostime/cmake/rostimeConfig.cmake
+/opt/ros/indigo/share/rostime/cmake/rostimeConfig-version.cmake
+/opt/ros/indigo/share/rostime/package.xml
+/opt/ros/indigo/lib/librostime.so
+/opt/ros/indigo/include/ros/time.h
+/opt/ros/indigo/include/ros/duration.h
+/opt/ros/indigo/include/ros/impl/time.h
+/opt/ros/indigo/include/ros/impl/duration.h
+/opt/ros/indigo/include/ros/rostime_decl.h
+/opt/ros/indigo/include/ros/rate.h

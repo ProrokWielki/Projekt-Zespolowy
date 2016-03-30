@@ -1,0 +1,9 @@
+/mnt/dav/Projekt/Software/Raspberry PI/build_isolated/rosservice/CMakeFiles/_catkin_empty_exported_target.dir
+/mnt/dav/Projekt/Software/Raspberry PI/build_isolated/rosservice/CMakeFiles/clean_test_results.dir
+/mnt/dav/Projekt/Software/Raspberry PI/build_isolated/rosservice/CMakeFiles/clean_test_results_rosservice.dir
+/mnt/dav/Projekt/Software/Raspberry PI/build_isolated/rosservice/CMakeFiles/download_extra_data.dir
+/mnt/dav/Projekt/Software/Raspberry PI/build_isolated/rosservice/CMakeFiles/doxygen.dir
+/mnt/dav/Projekt/Software/Raspberry PI/build_isolated/rosservice/gtest/CMakeFiles/gtest.dir
+/mnt/dav/Projekt/Software/Raspberry PI/build_isolated/rosservice/gtest/CMakeFiles/gtest_main.dir
+/mnt/dav/Projekt/Software/Raspberry PI/build_isolated/rosservice/CMakeFiles/run_tests.dir
+/mnt/dav/Projekt/Software/Raspberry PI/build_isolated/rosservice/CMakeFiles/tests.dir

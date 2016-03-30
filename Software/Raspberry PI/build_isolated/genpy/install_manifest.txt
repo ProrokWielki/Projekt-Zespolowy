@@ -1,0 +1,14 @@
+/opt/ros/indigo/_setup_util.py
+/opt/ros/indigo/env.sh
+/opt/ros/indigo/setup.bash
+/opt/ros/indigo/setup.sh
+/opt/ros/indigo/setup.zsh
+/opt/ros/indigo/.rosinstall
+/opt/ros/indigo/lib/pkgconfig/genpy.pc
+/opt/ros/indigo/share/genpy/cmake/genpy-extras.cmake
+/opt/ros/indigo/share/genpy/cmake/genpyConfig.cmake
+/opt/ros/indigo/share/genpy/cmake/genpyConfig-version.cmake
+/opt/ros/indigo/share/genpy/package.xml
+/opt/ros/indigo/etc/ros/genmsg/genpy
+/opt/ros/indigo/lib/genpy/genmsg_py.py
+/opt/ros/indigo/lib/genpy/gensrv_py.py

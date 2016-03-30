@@ -1,0 +1,8 @@
+prefix=/mnt/dav/Projekt/Software/Raspberry PI/devel_isolated/message_filters
+
+Name: message_filters
+Description: Description of message_filters
+Version: 1.11.16
+Cflags: -I/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/message_filters/include
+Libs: -L/mnt/dav/Projekt/Software/Raspberry PI/devel_isolated/message_filters/lib -lmessage_filters
+Requires: roscpp xmlrpcpp rosconsole

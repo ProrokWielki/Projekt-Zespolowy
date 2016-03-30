@@ -1,0 +1,8 @@
+prefix=/mnt/dav/Projekt/Software/Raspberry PI/devel_isolated/rosboost_cfg
+
+Name: rosboost_cfg
+Description: Description of rosboost_cfg
+Version: 1.11.11
+Cflags: 
+Libs: -L/mnt/dav/Projekt/Software/Raspberry PI/devel_isolated/rosboost_cfg/lib 
+Requires: 

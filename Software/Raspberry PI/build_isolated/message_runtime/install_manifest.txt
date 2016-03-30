@@ -1,0 +1,10 @@
+/opt/ros/indigo/_setup_util.py
+/opt/ros/indigo/env.sh
+/opt/ros/indigo/setup.bash
+/opt/ros/indigo/setup.sh
+/opt/ros/indigo/setup.zsh
+/opt/ros/indigo/.rosinstall
+/opt/ros/indigo/lib/pkgconfig/message_runtime.pc
+/opt/ros/indigo/share/message_runtime/cmake/message_runtimeConfig.cmake
+/opt/ros/indigo/share/message_runtime/cmake/message_runtimeConfig-version.cmake
+/opt/ros/indigo/share/message_runtime/package.xml

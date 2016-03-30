@@ -1,0 +1,13 @@
+/opt/ros/indigo/_setup_util.py
+/opt/ros/indigo/env.sh
+/opt/ros/indigo/setup.bash
+/opt/ros/indigo/setup.sh
+/opt/ros/indigo/setup.zsh
+/opt/ros/indigo/.rosinstall
+/opt/ros/indigo/lib/pkgconfig/rosgraph.pc
+/opt/ros/indigo/share/rosgraph/cmake/rosgraphConfig.cmake
+/opt/ros/indigo/share/rosgraph/cmake/rosgraphConfig-version.cmake
+/opt/ros/indigo/share/rosgraph/package.xml
+/opt/ros/indigo/etc/ros/python_logging.conf
+/opt/ros/indigo/share/rosgraph/conf/python_logging.conf
+/opt/ros/indigo/lib/rosgraph/rosgraph

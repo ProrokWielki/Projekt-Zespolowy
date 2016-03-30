@@ -1,0 +1,11 @@
+/opt/ros/indigo/_setup_util.py
+/opt/ros/indigo/env.sh
+/opt/ros/indigo/setup.bash
+/opt/ros/indigo/setup.sh
+/opt/ros/indigo/setup.zsh
+/opt/ros/indigo/.rosinstall
+/opt/ros/indigo/lib/pkgconfig/rostopic.pc
+/opt/ros/indigo/share/rostopic/cmake/rostopicConfig.cmake
+/opt/ros/indigo/share/rostopic/cmake/rostopicConfig-version.cmake
+/opt/ros/indigo/share/rostopic/package.xml
+/opt/ros/indigo/lib/rostopic/rostopic

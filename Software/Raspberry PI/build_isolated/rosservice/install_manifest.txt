@@ -1,0 +1,11 @@
+/opt/ros/indigo/_setup_util.py
+/opt/ros/indigo/env.sh
+/opt/ros/indigo/setup.bash
+/opt/ros/indigo/setup.sh
+/opt/ros/indigo/setup.zsh
+/opt/ros/indigo/.rosinstall
+/opt/ros/indigo/lib/pkgconfig/rosservice.pc
+/opt/ros/indigo/share/rosservice/cmake/rosserviceConfig.cmake
+/opt/ros/indigo/share/rosservice/cmake/rosserviceConfig-version.cmake
+/opt/ros/indigo/share/rosservice/package.xml
+/opt/ros/indigo/lib/rosservice/rosservice

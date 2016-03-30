@@ -1,0 +1,15 @@
+/mnt/dav/Projekt/Software/Raspberry PI/build_isolated/rosclean/CMakeFiles/_catkin_empty_exported_target.dir
+/mnt/dav/Projekt/Software/Raspberry PI/build_isolated/rosclean/CMakeFiles/_run_tests_rosclean.dir
+/mnt/dav/Projekt/Software/Raspberry PI/build_isolated/rosclean/CMakeFiles/_run_tests_rosclean_nosetests.dir
+/mnt/dav/Projekt/Software/Raspberry PI/build_isolated/rosclean/CMakeFiles/_run_tests_rosclean_nosetests_test.dir
+/mnt/dav/Projekt/Software/Raspberry PI/build_isolated/rosclean/CMakeFiles/clean_test_results.dir
+/mnt/dav/Projekt/Software/Raspberry PI/build_isolated/rosclean/CMakeFiles/clean_test_results_rosclean.dir
+/mnt/dav/Projekt/Software/Raspberry PI/build_isolated/rosclean/CMakeFiles/download_extra_data.dir
+/mnt/dav/Projekt/Software/Raspberry PI/build_isolated/rosclean/CMakeFiles/doxygen.dir
+/mnt/dav/Projekt/Software/Raspberry PI/build_isolated/rosclean/gtest/CMakeFiles/gtest.dir
+/mnt/dav/Projekt/Software/Raspberry PI/build_isolated/rosclean/gtest/CMakeFiles/gtest_main.dir
+/mnt/dav/Projekt/Software/Raspberry PI/build_isolated/rosclean/CMakeFiles/run_tests.dir
+/mnt/dav/Projekt/Software/Raspberry PI/build_isolated/rosclean/CMakeFiles/run_tests_rosclean.dir
+/mnt/dav/Projekt/Software/Raspberry PI/build_isolated/rosclean/CMakeFiles/run_tests_rosclean_nosetests.dir
+/mnt/dav/Projekt/Software/Raspberry PI/build_isolated/rosclean/CMakeFiles/run_tests_rosclean_nosetests_test.dir
+/mnt/dav/Projekt/Software/Raspberry PI/build_isolated/rosclean/CMakeFiles/tests.dir

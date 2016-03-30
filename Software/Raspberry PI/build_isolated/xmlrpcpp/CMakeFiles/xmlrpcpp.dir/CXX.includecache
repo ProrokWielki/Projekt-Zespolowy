@@ -1,0 +1,268 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/include/XmlRpc.h
+string
+-
+XmlRpcClient.h
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/include/XmlRpcClient.h
+XmlRpcException.h
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/include/XmlRpcException.h
+XmlRpcServer.h
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/include/XmlRpcServer.h
+XmlRpcServerMethod.h
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/include/XmlRpcServerMethod.h
+XmlRpcValue.h
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/include/XmlRpcValue.h
+XmlRpcUtil.h
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/include/XmlRpcUtil.h
+stdexcept
+-
+
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/include/XmlRpcClient.h
+string
+-
+XmlRpcDispatch.h
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/include/XmlRpcDispatch.h
+XmlRpcSource.h
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/include/XmlRpcSource.h
+XmlRpcDecl.h
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/include/XmlRpcDecl.h
+
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/include/XmlRpcDecl.h
+ros/macros.h
+-
+
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/include/XmlRpcDispatch.h
+XmlRpcDecl.h
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/include/XmlRpcDecl.h
+list
+-
+
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/include/XmlRpcException.h
+string
+-
+XmlRpcDecl.h
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/include/XmlRpcDecl.h
+
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/include/XmlRpcServer.h
+map
+-
+string
+-
+XmlRpcDispatch.h
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/include/XmlRpcDispatch.h
+XmlRpcSource.h
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/include/XmlRpcSource.h
+XmlRpcDecl.h
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/include/XmlRpcDecl.h
+
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/include/XmlRpcServerConnection.h
+string
+-
+XmlRpcValue.h
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/include/XmlRpcValue.h
+XmlRpcSource.h
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/include/XmlRpcSource.h
+XmlRpcDecl.h
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/include/XmlRpcDecl.h
+
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/include/XmlRpcServerMethod.h
+XmlRpcDecl.h
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/include/XmlRpcDecl.h
+string
+-
+
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/include/XmlRpcSocket.h
+string
+-
+XmlRpcDecl.h
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/include/XmlRpcDecl.h
+
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/include/XmlRpcSource.h
+XmlRpcDecl.h
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/include/XmlRpcDecl.h
+
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/include/XmlRpcUtil.h
+string
+-
+XmlRpcDecl.h
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/include/XmlRpcDecl.h
+
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/include/XmlRpcValue.h
+XmlRpcDecl.h
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/include/XmlRpcDecl.h
+map
+-
+string
+-
+vector
+-
+time.h
+-
+
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/include/base64.h
+iterator
+-
+ios
+-
+
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/src/XmlRpcClient.cpp
+XmlRpcClient.h
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/src/XmlRpcClient.h
+XmlRpcSocket.h
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/src/XmlRpcSocket.h
+XmlRpc.h
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/src/XmlRpc.h
+stdio.h
+-
+stdlib.h
+-
+strings.h
+-
+string.h
+-
+
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/src/XmlRpcDispatch.cpp
+XmlRpcDispatch.h
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/src/XmlRpcDispatch.h
+XmlRpcSource.h
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/src/XmlRpcSource.h
+XmlRpcUtil.h
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/src/XmlRpcUtil.h
+math.h
+-
+errno.h
+-
+sys/timeb.h
+-
+sys/select.h
+-
+winsock2.h
+-
+sys/time.h
+-
+
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/src/XmlRpcServer.cpp
+XmlRpcServer.h
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/src/XmlRpcServer.h
+XmlRpcServerConnection.h
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/src/XmlRpcServerConnection.h
+XmlRpcServerMethod.h
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/src/XmlRpcServerMethod.h
+XmlRpcSocket.h
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/src/XmlRpcSocket.h
+XmlRpcUtil.h
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/src/XmlRpcUtil.h
+XmlRpcException.h
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/src/XmlRpcException.h
+
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/src/XmlRpcServerConnection.cpp
+XmlRpcServerConnection.h
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/src/XmlRpcServerConnection.h
+XmlRpcSocket.h
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/src/XmlRpcSocket.h
+XmlRpc.h
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/src/XmlRpc.h
+stdio.h
+-
+stdlib.h
+-
+strings.h
+-
+string.h
+-
+
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/src/XmlRpcServerMethod.cpp
+XmlRpcServerMethod.h
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/src/XmlRpcServerMethod.h
+XmlRpcServer.h
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/src/XmlRpcServer.h
+
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/src/XmlRpcSocket.cpp
+XmlRpcSocket.h
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/src/XmlRpcSocket.h
+XmlRpcUtil.h
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/src/XmlRpcUtil.h
+stdio.h
+-
+winsock2.h
+-
+ws2tcpip.h
+-
+unistd.h
+-
+stdio.h
+-
+sys/types.h
+-
+sys/socket.h
+-
+netinet/in.h
+-
+netdb.h
+-
+errno.h
+-
+fcntl.h
+-
+string.h
+-
+stdlib.h
+-
+arpa/inet.h
+-
+
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/src/XmlRpcSource.cpp
+XmlRpcSource.h
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/src/XmlRpcSource.h
+XmlRpcSocket.h
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/src/XmlRpcSocket.h
+XmlRpcUtil.h
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/src/XmlRpcUtil.h
+
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/src/XmlRpcUtil.cpp
+XmlRpcUtil.h
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/src/XmlRpcUtil.h
+ctype.h
+-
+iostream
+-
+stdarg.h
+-
+stdio.h
+-
+string.h
+-
+XmlRpc.h
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/src/XmlRpc.h
+windows.h
+-
+
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/src/XmlRpcValue.cpp
+XmlRpcValue.h
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/src/XmlRpcValue.h
+XmlRpcException.h
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/src/XmlRpcException.h
+XmlRpcUtil.h
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/src/XmlRpcUtil.h
+base64.h
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/xmlrpcpp/src/base64.h
+iostream
+-
+ostream
+-
+stdlib.h
+-
+stdio.h
+-
+sstream
+-
+
+/opt/ros/indigo/include/ros/macros.h
+

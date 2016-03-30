@@ -1,0 +1,8 @@
+prefix=/mnt/dav/Projekt/Software/Raspberry PI/devel_isolated/std_msgs
+
+Name: std_msgs
+Description: Description of std_msgs
+Version: 0.5.9
+Cflags: -I/mnt/dav/Projekt/Software/Raspberry PI/devel_isolated/std_msgs/include -I/mnt/dav/Projekt/Software/Raspberry PI/src/std_msgs/include
+Libs: -L/mnt/dav/Projekt/Software/Raspberry PI/devel_isolated/std_msgs/lib 
+Requires: message_runtime

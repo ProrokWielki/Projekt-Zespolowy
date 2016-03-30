@@ -1,0 +1,10 @@
+/opt/ros/indigo/_setup_util.py
+/opt/ros/indigo/env.sh
+/opt/ros/indigo/setup.bash
+/opt/ros/indigo/setup.sh
+/opt/ros/indigo/setup.zsh
+/opt/ros/indigo/.rosinstall
+/opt/ros/indigo/lib/pkgconfig/rosnode.pc
+/opt/ros/indigo/share/rosnode/cmake/rosnodeConfig.cmake
+/opt/ros/indigo/share/rosnode/cmake/rosnodeConfig-version.cmake
+/opt/ros/indigo/share/rosnode/package.xml

@@ -1,0 +1,8 @@
+prefix=/mnt/dav/Projekt/Software/Raspberry PI/devel_isolated/rosclean
+
+Name: rosclean
+Description: Description of rosclean
+Version: 1.11.11
+Cflags: 
+Libs: -L/mnt/dav/Projekt/Software/Raspberry PI/devel_isolated/rosclean/lib 
+Requires: 

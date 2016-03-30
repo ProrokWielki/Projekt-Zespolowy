@@ -1,0 +1,9 @@
+# CMake generated Testfile for 
+# Source directory: /mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/rostopic
+# Build directory: /mnt/dav/Projekt/Software/Raspberry PI/build_isolated/rostopic
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(_ctest_rostopic_rostest_test_rostopic.test "/mnt/dav/Projekt/Software/Raspberry PI/build_isolated/rostopic/catkin_generated/env_cached.sh" "/usr/bin/python" "/opt/ros/indigo/share/catkin/cmake/test/run_tests.py" "/mnt/dav/Projekt/Software/Raspberry PI/build_isolated/rostopic/test_results/rostopic/rostest-test_rostopic.xml" "--return-code" "/opt/ros/indigo/share/rostest/cmake/../../../bin/rostest --pkgdir=/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/rostopic --package=rostopic --results-filename test_rostopic.xml --results-base-dir \"/mnt/dav/Projekt/Software/Raspberry PI/build_isolated/rostopic/test_results\" /mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/rostopic/test/rostopic.test ")
+add_test(_ctest_rostopic_nosetests_test.test_rostopic_command_line_offline.py "/mnt/dav/Projekt/Software/Raspberry PI/build_isolated/rostopic/catkin_generated/env_cached.sh" "/usr/bin/python" "/opt/ros/indigo/share/catkin/cmake/test/run_tests.py" "/mnt/dav/Projekt/Software/Raspberry PI/build_isolated/rostopic/test_results/rostopic/nosetests-test.test_rostopic_command_line_offline.py.xml" "--return-code" "/usr/bin/cmake -E make_directory /mnt/dav/Projekt/Software/Raspberry PI/build_isolated/rostopic/test_results/rostopic" "/usr/bin/nosetests-2.7 -P --process-timeout=60 /mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/rostopic/test/test_rostopic_command_line_offline.py --with-xunit --xunit-file=/mnt/dav/Projekt/Software/Raspberry PI/build_isolated/rostopic/test_results/rostopic/nosetests-test.test_rostopic_command_line_offline.py.xml")
+subdirs(gtest)

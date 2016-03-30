@@ -1,0 +1,17 @@
+/opt/ros/indigo/_setup_util.py
+/opt/ros/indigo/env.sh
+/opt/ros/indigo/setup.bash
+/opt/ros/indigo/setup.sh
+/opt/ros/indigo/setup.zsh
+/opt/ros/indigo/.rosinstall
+/opt/ros/indigo/lib/pkgconfig/genmsg.pc
+/opt/ros/indigo/share/genmsg/cmake/genmsg-extras.cmake
+/opt/ros/indigo/share/genmsg/cmake/genmsgConfig.cmake
+/opt/ros/indigo/share/genmsg/cmake/genmsgConfig-version.cmake
+/opt/ros/indigo/share/genmsg/package.xml
+/opt/ros/indigo/share/genmsg/cmake/pkg-genmsg.cmake.em
+/opt/ros/indigo/share/genmsg/cmake/pkg-genmsg.context.in
+/opt/ros/indigo/share/genmsg/cmake/pkg-msg-extras.cmake.in
+/opt/ros/indigo/share/genmsg/cmake/pkg-msg-paths.cmake.develspace.in
+/opt/ros/indigo/share/genmsg/cmake/pkg-msg-paths.cmake.installspace.in
+/opt/ros/indigo/lib/genmsg/genmsg_check_deps.py

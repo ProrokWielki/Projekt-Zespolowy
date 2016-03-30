@@ -1,0 +1,10 @@
+/mnt/dav/Projekt/Software/Raspberry PI/build_isolated/roscpp_serialization/CMakeFiles/_catkin_empty_exported_target.dir
+/mnt/dav/Projekt/Software/Raspberry PI/build_isolated/roscpp_serialization/CMakeFiles/clean_test_results.dir
+/mnt/dav/Projekt/Software/Raspberry PI/build_isolated/roscpp_serialization/CMakeFiles/clean_test_results_roscpp_serialization.dir
+/mnt/dav/Projekt/Software/Raspberry PI/build_isolated/roscpp_serialization/CMakeFiles/download_extra_data.dir
+/mnt/dav/Projekt/Software/Raspberry PI/build_isolated/roscpp_serialization/CMakeFiles/doxygen.dir
+/mnt/dav/Projekt/Software/Raspberry PI/build_isolated/roscpp_serialization/gtest/CMakeFiles/gtest.dir
+/mnt/dav/Projekt/Software/Raspberry PI/build_isolated/roscpp_serialization/gtest/CMakeFiles/gtest_main.dir
+/mnt/dav/Projekt/Software/Raspberry PI/build_isolated/roscpp_serialization/CMakeFiles/roscpp_serialization.dir
+/mnt/dav/Projekt/Software/Raspberry PI/build_isolated/roscpp_serialization/CMakeFiles/run_tests.dir
+/mnt/dav/Projekt/Software/Raspberry PI/build_isolated/roscpp_serialization/CMakeFiles/tests.dir

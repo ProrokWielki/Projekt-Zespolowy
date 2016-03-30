@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/rosconsole/include/ros/console_backend.h
+
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/rosconsole/src/rosconsole/rosconsole_backend.cpp
+ros/console_backend.h
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/rosconsole/src/rosconsole/ros/console_backend.h
+

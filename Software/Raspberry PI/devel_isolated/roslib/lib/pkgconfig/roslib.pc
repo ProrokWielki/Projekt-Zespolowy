@@ -1,0 +1,8 @@
+prefix=/mnt/dav/Projekt/Software/Raspberry PI/devel_isolated/roslib
+
+Name: roslib
+Description: Description of roslib
+Version: 1.11.11
+Cflags: -I/mnt/dav/Projekt/Software/Raspberry PI/src/ros/roslib/include
+Libs: -L/mnt/dav/Projekt/Software/Raspberry PI/devel_isolated/roslib/lib -lroslib
+Requires: 

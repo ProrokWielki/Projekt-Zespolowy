@@ -1,0 +1,5 @@
+/mnt/dav/Projekt/Software/PC/build/CMakeFiles/doxygen.dir
+/mnt/dav/Projekt/Software/PC/build/CMakeFiles/tests.dir
+/mnt/dav/Projekt/Software/PC/build/CMakeFiles/download_extra_data.dir
+/mnt/dav/Projekt/Software/PC/build/CMakeFiles/run_tests.dir
+/mnt/dav/Projekt/Software/PC/build/CMakeFiles/clean_test_results.dir

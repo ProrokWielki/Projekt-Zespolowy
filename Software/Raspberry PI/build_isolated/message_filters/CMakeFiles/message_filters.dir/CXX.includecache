@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/message_filters/include/message_filters/connection.h
+boost/function.hpp
+-
+boost/signals2/connection.hpp
+-
+macros.h
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/message_filters/include/message_filters/macros.h
+
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/message_filters/include/message_filters/macros.h
+ros/macros.h
+-
+
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/message_filters/src/connection.cpp
+message_filters/connection.h
+/mnt/dav/Projekt/Software/Raspberry PI/src/ros_comm/message_filters/src/message_filters/connection.h
+
+/opt/ros/indigo/include/ros/macros.h
+

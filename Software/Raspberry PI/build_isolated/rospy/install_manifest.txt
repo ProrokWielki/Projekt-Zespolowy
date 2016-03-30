@@ -1,0 +1,14 @@
+/opt/ros/indigo/_setup_util.py
+/opt/ros/indigo/env.sh
+/opt/ros/indigo/setup.bash
+/opt/ros/indigo/setup.sh
+/opt/ros/indigo/setup.zsh
+/opt/ros/indigo/.rosinstall
+/opt/ros/indigo/lib/pkgconfig/rospy.pc
+/opt/ros/indigo/share/rospy/cmake/rospyConfig.cmake
+/opt/ros/indigo/share/rospy/cmake/rospyConfig-version.cmake
+/opt/ros/indigo/share/rospy/package.xml
+/opt/ros/indigo/share/rospy/rosbuild/rospy.cmake
+/opt/ros/indigo/share/rospy/rosbuild/scripts/genmsg_py.py
+/opt/ros/indigo/share/rospy/rosbuild/scripts/gensrv_py.py
+/opt/ros/indigo/share/rospy/rosbuild/scripts/genutil.py

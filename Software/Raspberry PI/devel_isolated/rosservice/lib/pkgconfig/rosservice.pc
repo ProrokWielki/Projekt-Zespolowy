@@ -1,0 +1,8 @@
+prefix=/mnt/dav/Projekt/Software/Raspberry PI/devel_isolated/rosservice
+
+Name: rosservice
+Description: Description of rosservice
+Version: 1.11.16
+Cflags: 
+Libs: -L/mnt/dav/Projekt/Software/Raspberry PI/devel_isolated/rosservice/lib 
+Requires: 

@@ -1,0 +1,16 @@
+/opt/ros/indigo/_setup_util.py
+/opt/ros/indigo/env.sh
+/opt/ros/indigo/setup.bash
+/opt/ros/indigo/setup.sh
+/opt/ros/indigo/setup.zsh
+/opt/ros/indigo/.rosinstall
+/opt/ros/indigo/lib/pkgconfig/genlisp.pc
+/opt/ros/indigo/share/genlisp/cmake/genlisp-extras.cmake
+/opt/ros/indigo/share/genlisp/cmake/genlispConfig.cmake
+/opt/ros/indigo/share/genlisp/cmake/genlispConfig-version.cmake
+/opt/ros/indigo/share/genlisp/package.xml
+/opt/ros/indigo/etc/ros/genmsg/genlisp
+/opt/ros/indigo/share/common-lisp/rospack_nosubdirs
+/opt/ros/indigo/share/genlisp/msg.lisp.template
+/opt/ros/indigo/share/genlisp/srv.lisp.template
+/opt/ros/indigo/lib/genlisp/gen_lisp.py
